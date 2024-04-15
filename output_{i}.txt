@@ -1,0 +1,6 @@
+ore \
+        --rpc https://endpoints.omniatech.io/v1/sol/mainnet/90271177347948bdb61b0112055ff50f \
+        --keypair ~/.config/solana/id.json \
+        --priority-fee 1 \
+        mine \
+        --threads 4
